@@ -1,0 +1,30 @@
+body {
+  font: normal medium/1.4 sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 20%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 5px black solid ;
+}
+
+.btn{
+	color:#fff;
+	background-color:/*#e74c3c*/ black;
+	outline: none;
+    border: 0;
+    color: #fff;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+	position:relative;
+}
+
+
+	
+  

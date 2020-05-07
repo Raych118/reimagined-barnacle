@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Zebra Stripes</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+     $("table tr:nth-child(odd)").css("background-color", "black");
+     $("table tr:nth-child(odd)").css("color", "white");
+  });
+});
+</script>
+</head>
+
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<table class="table">
+
+		<tbody>
+			
+			<tr>
+				<td>Name</td>
+				<td>Bounces</td>
+			</tr>	
+		
+			   <tr>
+				  <td> Tendai</td>
+				  <td> 7</td>
+			   </tr> 
+
+			   <tr>
+			   	<td> Kudzai</td>
+			   	<td> 13 </td>
+			   </tr>
+
+			   <tr>
+			   	<td> Taurai</td>
+			   	<td> 3 </td>
+			   </tr>
+
+			   <tr>
+			   	<td> Nyika</td>
+			   	<td> 1000 </td>
+			   </tr>
+	
+		</tbody>
+	</table>
+
+<br/>
+<br/>
+<br/>
+	<table class="table">
+		<tbody>
+			
+			<tr>
+				<td>Name</td>
+				<td>Favourite Food</td>
+			</tr>	
+			
+			   <tr>
+				  <td> Tendai</td>
+				  <td> Sadza Madora</td>
+			   </tr> 
+			
+			   <tr>
+			   	<td> Kudzai</td>
+			   	<td> Sadza Chicken </td>
+			   </tr>
+		
+			   <tr>
+			   	<td> Taurai</td>
+			   	<td> Gango </td>
+			   </tr>
+		
+		</tbody>
+	</table>
+
+	<button class="btn btn-outline-primary my-2 my-sm-0" >Zebra</button>
+	
+</body>
+</html>
